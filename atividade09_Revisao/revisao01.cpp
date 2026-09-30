@@ -23,21 +23,6 @@ void buscaSequencial(int vetor[], int tamanho, int numero, bool encontrado) {
     }
 }
 
-/*void bubbleSort(int vetor[], int tamanho) {
-
-    for(int i = 0; i < tamanho - 1; i++) {
-        for(int j = 0; j < tamanho - 1 - i; j++) {
-            if(vetor[j] > vetor[j + 1]) {
-                
-                int aux = vetor[j];
-                vetor[j] = vetor[j + 1];
-                vetor[j + 1] = aux;
-            }
-        }
-    }
-}
-*/
-
 int main() {
 
     int tamanho = 10;
@@ -50,8 +35,6 @@ int main() {
         cout << "Digite um codigo: ";
         cin >> vetor[i];
     }
-
-    //bubbleSort(vetor, tamanho);
 
     for(int i = 0; i < tamanho; i++) {
         cout << vetor[i];
